@@ -11,8 +11,8 @@ export const TransactionHistory = ({ items }) => {
     </Tr>
   </thead>
             {items.map(item => (
-                <tbody>
-    <Tr>
+                <tbody key={item.id}>
+                    <Tr>
                         <Td>{item.type}</Td>
                         <Td>{item.amount}</Td>
                         <Td>{item.currency}</Td>
