@@ -6,6 +6,8 @@ const bgColor = p => {
             return "green"
         case false:
             return "#CD5C5C";
+        default:
+            return "white";
     }
 }
 

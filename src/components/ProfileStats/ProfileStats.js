@@ -1,4 +1,4 @@
-import { ListItem, Prof, SpanLabel, SpanQuantity, StatsCard } from "./ProfileStats.styled"
+import { ListItem, SpanLabel, SpanQuantity, StatsCard } from "./ProfileStats.styled"
 
 export const ProfileStats = ({ stats: { followers, views, likes } }) => {
 
