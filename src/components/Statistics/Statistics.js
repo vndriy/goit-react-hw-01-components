@@ -4,7 +4,7 @@ import { StatComponent } from 'components/StatisticComponent/StatisticComponent'
 export const Statistic = ({ stats, title }) => {
   return (
     <StatisticWrapper>
-      <Header>{title}</Header>
+      {title && <Header>{title}</Header>}
 
       <StatUl>
         {stats.map(data => (
